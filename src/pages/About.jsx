@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Package, Zap, Smartphone, Shield } from "lucide-react";
+import { Mail, Package, Zap, Smartphone } from "lucide-react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -96,7 +96,9 @@ export default function About() {
             For inquiries or support, feel free to contact our customer service team.
           </p>
           <a
-            href="mailto:cs@minilemon.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=cs@minilemon.com&su=Customer%20Support%20Request&body=Hello%20Customer%20Service%2C%0A%0AI%20would%20like%20to%20inquire%20about..."
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2 bg-[#FF6200] text-white rounded-lg hover:bg-orange-600 transition-colors"
           >
             <Mail size={18} /> cs@minilemon.com
